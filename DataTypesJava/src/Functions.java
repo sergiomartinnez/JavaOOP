@@ -1,4 +1,4 @@
-public class Funciones {
+public class Functions {
     public static void main(String[] args) {
         double y = 3;
         double quantity;
@@ -19,14 +19,14 @@ public class Funciones {
         sphereVolumen(y);
         System.out.println(sphereVolumen(y));
 
-        System.out.println("Pesos a dolares: " + converToDolar(quantity=1000,currency="COP"));
+        System.out.println("Pesos to dolar: " + converToDolar(quantity=1000,currency="COP"));
 
 
     }
 
     /**
-     * Descripcion: Funcion que especificando el radio del circulo puede sacar su area
-     * @param r el radio del circulo
+     * Descripcion: Function that by specifying the radius of the circle you can get its area
+     * @param r circle radius
      * @return circleArea
      * */
 
@@ -35,8 +35,8 @@ public class Funciones {
     }
 
     /**
-     * Descripcion: Funcion que especificando el radio de la esfera puede sacar su area
-     * @param r el radio de la esfera
+     * Descripcion: Function that by specifying the radius of the sphere you can get its area
+     * @param r circle radius
      * @return sphereArea
      * */
 
@@ -46,8 +46,8 @@ public class Funciones {
     }
 
     /**
-     * Descripcion: Funcion que especificando el radio de la esfera puede sacar su volumen
-     * @param r el radio de la esfera
+     * Descripcion: Function that by specifying the radius of the sphere you can get its volume
+     * @param r circle radius
      * @return sphereVolumen
      * */
 
@@ -56,10 +56,10 @@ public class Funciones {
     }
 
     /**
-     * Descripcion: Funcion que especificando su moneda convierte una cantidad de dinero a dolares
-     * @param quantity Cantidad de dinero
-     * @param currency Tipo de moneda: Solo acepta MXN o COP
-     * @return quantity devuelve la cantidad actualizada en Dolares
+     * Descripcion: Function that specifying your currency converts an amount of money to dollars
+     * @param quantity quantity of money
+     * @param currency type of money, just accepted MXN o COP
+     * @return quantity returns the quantity into dolars
      * */
 
     public static double converToDolar(double quantity,String currency){

@@ -1,19 +1,19 @@
 public class Family {
     public static void main(String[] args) {
-        String yo = "Sergio";
-        String mama = "Adriana";
-        String papa = "Sergio";
-        String hermana = "Dayana";
+        String me = "Sergio";
+        String mom = "Adriana";
+        String dad = "Sergio";
+        String sister = "Dayana";
 
-        int edadYo = 22;
-        int edadMama = 45;
-        int edadPapa = 50;
-        int edadHermana = 28;
+        int ageMe = 22;
+        int ageMom = 45;
+        int ageDad = 50;
+        int ageSister = 28;
 
-        System.out.println("les presento a mi familia " + yo + " y tengo: " + edadYo);
-        System.out.println("mi mama " + mama + " y tiene: " + edadMama);
-        System.out.println("mi papa " + papa + " y tiene: " + edadPapa);
-        System.out.println("mi hermana " + hermana + " y tiene: " + edadHermana);
+        System.out.println("Present you my family " + me + " i have: " + ageMe);
+        System.out.println("my mom " + mom + " and has: " + ageMom);
+        System.out.println("my dad " + dad + " and has: " + ageDad);
+        System.out.println("my sister " + sister + " and has: " + ageSister);
 
 
         char c = 'z';
