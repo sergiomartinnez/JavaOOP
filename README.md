@@ -1,5 +1,36 @@
-#Example of Java OOP 
-in this course i learned:
+# Java OOP 
+## Table of Contents
+* [General info](#general-info) 
+* [Technologies](#technologies) 
+* [Setup](#setup)
+* [Extra information](#Extra)
+
+------------
+## General info
+In this course i learned more about java and the focus in Object-Oriented Programming in language java, in the files of the repository you will find files like Doctor, appintments, patient, user, etc because the example of the code was an interface that the patient can book and appointment with the doctor, setting the date and the hour, check the previous booked appointments and the doctor can set their availabe appointments and set the hour too. It was separated in different files for modularity and better structure of the code.
+
+------------
+## Technologies
+
+>- IntelliJ Idea 1.2
+>- OpenJDK 11
+
+------------
+## Setup
+This project was made on a Windows 10 OS.
+
+### IntelliJ IDEA 
+1. Go to [https://www.jetbrains.com/idea/download/]
+2. Download the Community version
+
+### OpenJDK
+1. go to [https://adoptopenjdk.net/]
+2. Download the following version:
+    >- OpenJDK 11
+
+------------
+## Extra
+here is the detailed topics that i learned:
 >- what is UML 
 >- what is an object
 >- properties and behaviors
@@ -23,23 +54,23 @@ in this course i learned:
 >- abstract classes for solving interfaces problems
 >- anonymous classes instantiate an abstract class
 
-the commands that i learned:
->- declare and instantiate an object: doctor myDoctor = new doctor();
->- static (for global scope)
->- import
->- final
->- this. for variables
->- public, protected, default and private 
->- getters and setters allow read and write the variables of the methods
->- wrappers ( byte, short, int, long, float...)
->- enum 
->- extends for inheritance
->- super and this (super brings the methods of father class and this overload)
->- @override it helps to know that this method is not of the class
->- I for implements and able for adding behaviors
->- equals for == objects
->- scanner for the user enter an answer
->- simple dateformat for format dates and work with them
-
-the example of the code was an interface that the patient can book and appointment with the doctor, setting the date and the hour, check the previous booked appointments and
-the doctor can set their availabe appointments and set the hour too. It was separated in different files for modularity and better structure of the code.
+------------
+### the commands that i learned
+declare and instantiate an object: doctor myDoctor = new doctor();
+|  Command | Function  |
+| ------------ | ------------ |
+| static | for global scope |
+| import | import files |
+| final | declare a constant |
+| this. | specifies the variables used within a method |
+| public, protected, default and private | levels of visibility |
+| getters and setters | allow read and write the variables of the methods |
+| wrappers ( byte, short, int, long, float...) | disguises primitive data to be objects |
+| enum | declare a constant and written in Caps |
+| extends | inheritance |
+| super and this | super brings the methods of father class and this overload |
+| @override | it helps to know that this method is not of the class |
+| I | for implements and able for adding behaviors |
+| equals | for == objects |
+| scanner | for the user enter an answer|
+| simple dateformat | for format dates and work with them |
